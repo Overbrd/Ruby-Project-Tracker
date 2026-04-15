@@ -75,23 +75,26 @@ If you want, I can generate a screenshots section layout for you — just drop i
 git clone https://github.com/Overbrd/Ruby-Project-Tracker.git
 cd Ruby-Project-Tracker
 
-### Install dependencies
+#### Install dependencies
 
 bundle install  
 
-### Setup the database
+#### Setup the database
 
 rails db:create db:migrate
 
-### Start the server  
+#### Start the server  
 
 bin/dev
 
-### Visit:
+#### Visit:
 
 http://localhost:3000
 
-
+## 👤 Author  
+Matthew Lind  
+Designer & Developer  
+2026 Portfolio Project  
 
 
 
