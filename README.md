@@ -1,24 +1,50 @@
-# README
+# 📌 Ruby Project Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A lightweight productivity tool built with **Ruby on Rails 7.1.6** and **Ruby 3.2.2**, designed to help users organize projects and manage tasks with clarity and speed.  
+The application uses Turbo, Tailwind CSS, and a clean MVC architecture to deliver a fast, modern experience without unnecessary complexity.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## 🚀 Features
 
-* System dependencies
+- Create and manage multiple projects  
+- Add, update, and delete tasks within each project  
+- Turbo‑powered real‑time updates  
+- Tailwind‑styled UI with clean, modern layout  
+- Fully responsive design  
+- Deployed via GitHub → Railway workflow  
 
-* Configuration
+---
 
-* Database creation
+## 🛠️ Tech Stack & Versions
 
-* Database initialization
+This application was developed using the following tools and technologies:
 
-* How to run the test suite
+### **Core Application**
+- **Ruby 3.2.2**
+- **Ruby on Rails 7.1.6**
+- **Bundler 2.x**
+- **Puma 8.x** (application server)
+- **Turbo (Hotwire)** for real‑time UI updates
+- **Tailwind CSS 4.x** for styling
+- **ERB templates** for views
 
-* Services (job queues, cache servers, search engines, etc.)
+### **Databases**
+- **SQLite3** (development)
+- **PostgreSQL** (production, via Railway)
 
-* Deployment instructions
+### **Development Environment**
+- **Ubuntu (WSL2)** — primary Linux environment  
+- **Windows 11** — host OS  
+- **PowerShell** — terminal access  
+- **VS Code** — primary editor  
+- **Git + GitHub** — version control and repository hosting  
 
-* ...
+### **Deployment**
+- **Railway** — hosting + managed PostgreSQL  
+- **GitHub Actions (optional)** — CI/CD integration  
+
+---
+
+## 📂 Project Structure
+
