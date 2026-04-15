@@ -1,0 +1,11 @@
+<h1 class="text-2xl font-bold mb-2">Edit Task</h1>
+<p class="text-gray-700 mb-6">
+  Update the task name or status.  
+  Changes will be saved immediately and reflected in the project view.
+</p>
+
+<%= render "form", task: @task, project: @project %>
+
+<div class="mt-6">
+  <%= link_to "Back to Project", project_path(@project), class: "text-gray-600" %>
+</div>

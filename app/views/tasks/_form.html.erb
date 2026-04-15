@@ -1,0 +1,18 @@
+<p class="text-gray-600 mb-4">
+  Provide a task name and choose its current status.  
+  You can update or delete tasks at any time.
+</p>
+
+<%= form_with(model: [project, task], class: "space-y-4") do |f| %>
+  <div>
+    <%= f.label :name, class: "block font-semibold" %>
+    <%= f.text_field :name, class: "border p-2 w-full rounded" %>
+  </div>
+
+  <div>
+    <%= f.label :status, class: "block font-semibold" %>
+    <%= f.select :status, %w[pending in_progress done], class: "border p-2 w-full rounded" %>
+  </div>
+
+  <%= f.submit "Save Task", class: "bg-blue-600 text-white px-4 py-2 rounded" %>
+<% end %>

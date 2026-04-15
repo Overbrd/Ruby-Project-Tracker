@@ -1,0 +1,45 @@
+<!-- ========================= -->
+<!--   HERO HEADER SECTION     -->
+<!-- ========================= -->
+<div class="mb-10">
+  <h1 class="text-4xl font-bold mb-3">Project Tracker Demo Ruby App</h1>
+
+  <p class="text-gray-700 text-lg leading-relaxed">
+    This dashboard displays all active projects in your workspace.  
+    Review your current work, explore project details, or create a new project to begin tracking tasks.
+  </p>
+</div>
+
+
+<!-- ========================= -->
+<!--   PROJECT LIST SECTION    -->
+<!-- ========================= -->
+<div class="mb-12">
+  <h2 class="text-2xl font-semibold mb-4">Your Projects</h2>
+
+  <div class="space-y-4">
+    <% @projects.each do |project| %>
+      <div class="p-4 bg-white border rounded shadow-sm hover:shadow-md transition">
+        <h3 class="text-xl font-semibold">
+          <%= link_to project.name, project, class: "text-blue-700 hover:underline" %>
+        </h3>
+        <p class="text-gray-600 mt-1">
+          <%= project.description.presence || "No description provided." %>
+        </p>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+<!-- ========================= -->
+<!--   CREATE BUTTON SECTION   -->
+<!-- ========================= -->
+<div class="pt-6 border-t">
+  <%= link_to "Create a New Project",
+      new_project_path,
+      class: "inline-block bg-blue-600 text-white px-6 py-3 rounded text-lg shadow hover:bg-blue-700 transition" %>
+</div>
+
+
+
