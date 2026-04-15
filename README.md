@@ -48,3 +48,52 @@ This application was developed using the following tools and technologies:
 
 ## 📂 Project Structure
 
+app/  
+controllers/  
+models/  
+views/  
+assets/  
+config/  
+db/  
+
+
+Follows standard Rails MVC conventions.
+
+---
+
+## 📸 Screenshots (optional)
+
+If you want, I can generate a screenshots section layout for you — just drop in your images.
+
+---
+
+## 📦 Installation & Setup
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Overbrd/Ruby-Project-Tracker.git
+cd Ruby-Project-Tracker
+
+### Install dependencies
+
+bundle install  
+
+### Setup the database
+
+rails db:create db:migrate
+
+### Start the server  
+
+bin/dev
+
+### Visit:
+
+http://localhost:3000
+
+
+
+
+
+
+
