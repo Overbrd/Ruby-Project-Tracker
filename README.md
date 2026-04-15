@@ -69,27 +69,41 @@ If you want, I can generate a screenshots section layout for you — just drop i
 
 ## 📦 Installation & Setup
 
+
 ### Clone the repository
 
 ```bash
 git clone https://github.com/Overbrd/Ruby-Project-Tracker.git
+
+---
+
 cd Ruby-Project-Tracker
+
+---
 
 #### Install dependencies
 
-bundle install  
+bundle install
+
+---
 
 #### Setup the database
 
 rails db:create db:migrate
 
+---
+
 #### Start the server  
 
 bin/dev
 
+---
+
 #### Visit:
 
 http://localhost:3000
+
+---
 
 ## 👤 Author  
 Matthew Lind  
