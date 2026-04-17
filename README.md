@@ -69,7 +69,7 @@ If you want, I can generate a screenshots section layout for you — just drop i
 
 ## 📦 Installation & Setup
 
-This app works with Ubuntu. The commands below are for use within the Ubuntu command shell.  
+This app works with Ubuntu or similar. The commands below are for use within the Ubuntu command shell.  
 
 ### Clone the repository
 
